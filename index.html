@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Blockchain & AI Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Space+Grotesk&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Landing Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1 class="glitch" data-text="John Doe">John Doe</h1>
+      <p>Blockchain Developer | AI Engineer | Machine Learning | Cyber Security</p>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+    <canvas id="particle-bg"></canvas>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <div class="tech-icons">
+      <img src="blockchain-icon.png" alt="Blockchain">
+      <img src="ai-icon.png" alt="AI">
+      <img src="ml-icon.png" alt="Machine Learning">
+      <img src="cybersecurity-icon.png" alt="Cyber Security">
+    </div>
+  </section>
+
+  <!-- Project Gallery Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filter-buttons">
+      <button data-filter="all">All</button>
+      <button data-filter="blockchain">Blockchain</button>
+      <button data-filter="ai">AI</button>
+      <button data-filter="ml">Machine Learning</button>
+      <button data-filter="cybersecurity">Cyber Security</button>
+    </div>
+    <div class="project-grid">
+      <!-- Example project card -->
+      <div class="project-card" data-category="blockchain">
+        <h3>Blockchain Project</h3>
+        <p>Description...</p>
+      </div>
+      <!-- Add more project cards -->
+    </div>
+  </section>
+
+  <!-- Skills Visualization Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <canvas id="radar-chart"></canvas>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact">
+    <h2>Contact Me</h2>
+    <div class="social-icons">
+      <a href="https://github.com" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+      <a href="https://linkedin.com" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+      <a href="mailto:example@email.com"><img src="email-icon.png" alt="Email"></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
